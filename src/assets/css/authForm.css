@@ -1,0 +1,26 @@
+.form-auth{
+    padding: 2rem 2rem 0 2rem;
+    color: #fff;
+}
+
+.form-auth .form-control{
+    background-color: #282430;
+    border-color: #000;
+    color: #fff;
+}
+
+.form-auth .btn{
+    width: 100%;
+    margin: 1rem 0;
+    padding: 1rem 0;
+
+}
+
+
+/* desktop */
+@media screen and (min-width: 992px){
+    .form-auth{
+        padding: 6rem 4rem 0 4rem;
+    }
+    
+}

@@ -1,3 +1,22 @@
+# Usuarios y contraseñas ya resgistrados, no se les solicitará contraseña
+
+loreto
+password: 123456
+correo: lore@hotmail.com
+
+leonardo
+password: 121212
+correo: leo@hotmail.com
+
+anibal
+password: 454545
+correo: anibal@gmail.com
+
+sebastian
+password: 222222
+correo: seba@gmail.com
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

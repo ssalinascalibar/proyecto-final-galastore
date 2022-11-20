@@ -1,0 +1,20 @@
+.btn-logout{
+    background-color: none;
+}
+
+.btn-logout i{
+    font-size: 1.3em;
+    padding: 0 0;
+    color: #002333;
+    
+}
+
+/* Desktop */
+@media screen and (min-width: 992px){
+    .btn-logout i{
+        font-size: 1.4em
+        
+    }
+
+    
+}

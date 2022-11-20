@@ -11,3 +11,69 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+body{
+  background-color: #000;
+}
+
+
+.navbar{
+  background-color: #159A9C;
+  color: #F2F2F2;
+  padding: 1rem 0;
+}
+
+/* Main styles */
+/* background color private main */
+/* main, .section-banner{
+  background-color: #B4BEC9;
+} */
+
+main i, main h2, main h3{
+  color: #159A9C;
+}
+
+main h3{
+  margin: 1.5rem 0 1rem 0;
+  text-align: center;
+}
+
+.main-myprofile, .main-favoritos, .main-myPosts, .main-post {
+  margin: 3rem 0 3rem 0;
+}  
+
+/* Para todos los navbar */
+/* Estilo para Link to="" */
+.link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    
+}
+
+.link:hover{
+  color: #002333;
+}
+
+.navbar-brand .link:hover{
+  color: #fff;
+}
+
+
+
+
+/* Desktop */
+@media screen and (min-width: 992px){
+  main h3{
+    text-align: left;
+  }
+  
+} 

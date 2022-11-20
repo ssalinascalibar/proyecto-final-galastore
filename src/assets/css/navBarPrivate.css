@@ -1,0 +1,29 @@
+/* Estilo para Link to=""
+.link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    
+} */
+
+.offcanvas-body ul li{
+    list-style: none;
+    margin: 1rem 0;
+    
+}
+
+.offcanvas{
+    max-width: 70%;
+    background-color: #159A9C;
+}
+
+.offcanvas-body ul li i{
+    font-size: 1.1em;
+    padding: 0 0.6rem;
+}
+
+
+
+
+
+

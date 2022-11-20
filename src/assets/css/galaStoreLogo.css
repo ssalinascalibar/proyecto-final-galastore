@@ -1,0 +1,16 @@
+.logo-gala{
+    display: flex;
+    align-items: center;
+}
+
+.logo-gala i{
+    font-size: 1.4rem;
+}
+
+.logo-gala p{
+    margin: 0 0 0 0.3rem;
+    margin-bottom: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.7rem;
+}

@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "nombre": "sebas",
+      "isLogin": true,
+      "password": "454545",
+      "correo": "j@gmail.com",
+      "id": 1
+    },
+    {
+      "nombre": "loreto",
+      "isLoggin": true,
+      "password": "11213123",
+      "correo": "a@d",
+      "id": 2
+    },
+    {
+      "nombre": "sebastian",
+      "isLoggin": true,
+      "password": "1234",
+      "correo": "j@gmail.com",
+      "id": 3
+    },
+    [],
+    {
+      "nombre": "rrr",
+      "isLoggin": true,
+      "password": "1212",
+      "correo": "j@gmail.com",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+.section-auth{
+    margin: 2rem 0 0 0;
+    height: 100vh;
+}
+
+.img-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.img-content i{
+    font-size: 4em;
+    color: #282430;
+}
+
+/* desktop */
+@media screen and (min-width: 992px){
+    /* .img-content{
+        height: 100vh;
+        justify-content: center;
+        background-color: #fff;
+        background-image: url(/src/assets/img/bkg.auth.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    } */
+
+    .img-content{
+        height: 100vh;
+        justify-content: center;
+        background-color: #B4BEC9;
+    }
+
+    .img-content i{
+        font-size: 4em;
+    }
+
+    .section-auth{
+        margin: 0 0 0 0;
+    }
+    
+}

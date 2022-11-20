@@ -1,0 +1,16 @@
+
+/* #form-post{
+    
+} */
+
+#form-post{
+    margin: 3rem 0 0 0;
+}
+
+#form-post .form-control{
+    background-color: #DEEFE7;
+}
+
+#form-post label{
+    color: #fff;
+}

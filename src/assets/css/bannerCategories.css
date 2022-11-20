@@ -1,0 +1,89 @@
+.banner-img{
+    height: 100%;
+    width: 100%;   
+}
+
+.banner-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 1rem;
+    background-color: #002333;
+    border-radius: 0px 15px 15px 0px;
+    color: #fff;
+}
+
+.h2-banner-title{
+    color: #159A9C
+}
+
+/* banner perfumes  */
+.perfumes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 3rem 0;
+    position: relative;
+}
+.perfumes img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.perfumes-text{
+    color: #fff;
+    position: absolute;
+    text-align: right;
+    margin: 1.5rem 0 0 0;
+    padding: 0 2rem 0 0;
+}
+
+
+/* banner cocina */
+.banner-text.cocina{
+    border-radius: 15px 0 0 15px;
+    background-color: #DEEFE7;
+    color: #002333;
+}
+
+.banner-img.cocina img{
+    border-radius: 0 15px 15px 0;
+}
+
+
+/* desktop */
+@media screen and (min-width: 992px){
+
+    .banner-text .banner-p{
+        font-size: 1.5em;
+    }
+    
+    .banner-text .banner-h3{
+        font-size: 2em;
+    }
+
+    .perfumes{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .perfumes-text{
+        text-align: center;
+        font-size: 4em;
+    }
+    
+}
+

@@ -1,0 +1,30 @@
+[
+    {
+        "id": "0",
+        "nombre": "loreto",
+        "isRegistered": true,
+        "password": "123456",
+        "correo": "lore@hotmail.com"
+    },
+    {
+        "id": "1",
+        "nombre": "leonardo",
+        "isRegistered": true,
+        "password": "121212",
+        "correo": "leo@hotmail.com"
+    },
+    {
+        "id": "2",
+        "nombre": "anibal",
+        "isRegistered": true,
+        "password": "454545",
+        "correo": "anibal@gmail.com"
+    },
+    {
+        "id": "3",
+        "nombre": "sebastian",
+        "isRegistered": true,
+        "password": "222222",
+        "correo": "seba@gmail.com"
+    }
+]

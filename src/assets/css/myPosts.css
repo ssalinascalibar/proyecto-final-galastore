@@ -1,0 +1,69 @@
+.main-myPosts{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-myPosts{
+    margin: 1rem 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #282430;
+    margin: 1rem 2rem;
+    border-radius: 10px;
+    
+}
+
+.myPosts-img{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.myPosts-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.myPosts-description{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0px 0px 10px 10px;
+    color: #fff;
+}
+
+.myPosts-description h3{
+    text-align: left;
+}
+
+
+
+@media screen and (min-width: 576px){
+    .section-myPosts{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin: 2rem 0;
+        padding: 0 0;
+        
+    }
+
+    .myPosts-img{
+        width: 20%;
+        padding: 1rem;
+    }
+
+    .myPosts-description{
+        width: 30%;
+        border: 0px;
+        margin: 0 0 0 5rem;
+    }
+
+    .button-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+} 

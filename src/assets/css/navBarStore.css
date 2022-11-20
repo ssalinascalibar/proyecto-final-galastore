@@ -1,0 +1,62 @@
+.navbar-brand, .nav-link{
+    color: #F2F2F2;
+}
+
+/* .logo{
+    display: flex;
+    align-items: center;
+} */
+
+/* .logo p{
+    margin-bottom: 0;
+} */
+
+/* .navbar-brand i{
+    color: #fff;
+} */
+
+ul li i{
+    font-size: 1.2em;
+    padding: 0 0.6rem;
+}
+
+/* .fa-cat{
+    color: black;
+} */
+
+.nav-link{
+    font-size: 1.2em;
+}
+
+.form-navBarStore{
+    margin: 1rem 0;
+}
+
+.search-form{
+    display: flex;
+}
+
+.search-form{
+    display: flex;
+    width: 100%;
+    margin: 1rem 0;
+    
+}
+
+/* Desktop */
+@media screen and (min-width: 992px){
+    .search-form{
+        justify-content: center;
+        width: 80%;
+        margin: 0 2.5rem 0 0;
+        
+    }
+
+    .search-form input{
+        width: 80%;
+    }
+
+    ul .nav-item .link{
+        margin: 0 0.5rem 0 0;
+    }
+}

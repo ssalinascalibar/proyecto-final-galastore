@@ -2,16 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+import { useContext } from 'react'
+import Context from './Context';
+import { ContextProvider } from './Context';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  //se usa el provider en este punto para poder compartir
+  //correctamente la variable global isAuth y usarlas en private routes
   <React.StrictMode>
+    <ContextProvider>
     <App />
+    </ContextProvider>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
