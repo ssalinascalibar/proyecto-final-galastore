@@ -12,6 +12,7 @@ import Post from './views/Post'; // Publicar
 import Favorites from './views/Favorites'; // Mis favoritos
 import Store from './views/Store'; // tienda
 import GiftCardDetail from './views/GiftCardDetail';
+import NotFound from './views/NotFound';
 
 //Context
 import { useContext } from 'react'
@@ -39,6 +40,7 @@ function App() {
             <Route path='/' element={<Home />}/>
             <Route path='/login' element={<Login />}/>
             <Route path='/register' element={<Register />}/>
+            <Route path='*' element={<NotFound/>}/>
             
             <Route element={<PrivateRoutes/>}>
               <Route path='/store/miperfil' element={<MyProfile />}/>

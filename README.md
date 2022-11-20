@@ -1,3 +1,8 @@
+# Enlace al proyecto desplegado en Vercel
+
+https://proyecto-final-galastore.vercel.app
+
+
 # Usuarios y contraseñas ya resgistrados, no se les solicitará contraseña
 
 loreto
