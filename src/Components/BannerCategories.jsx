@@ -35,7 +35,7 @@ export default function BannerCategories() {
                 <div className="col">
                     <div className="banner-text cocina">
                         <p className="banner-p">En tiendas para el hogar</p>
-                        <h3 className="banner-h3">GiftCards desde $15.000</h3>
+                        <h3 className="banner-h3">Gift Cards desde $15.000</h3>
                     </div>
                 </div>
                 
@@ -54,7 +54,7 @@ export default function BannerCategories() {
                 <div className="perfumes">
                     <div className="perfumes-text">
                         <p className="banner-p">Top 10</p>
-                        <h3 className="banner-h3">GiftCard de perfumes</h3>
+                        <h3 className="banner-h3">Gift Cards de perfumes</h3>
                         <h3 className="banner-h3">femeninos</h3>
                     </div>
                     <img src={perfumesBanner} alt="perfume-giftCard" />

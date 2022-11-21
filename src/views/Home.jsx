@@ -26,7 +26,7 @@ export default function Home() {
           </div>
           <div className="text-home-2">
             <p>Publica tu marca!</p>
-            <p>y llega a mas personas</p>
+            <p>y llega a más personas</p>
           </div>
           
           

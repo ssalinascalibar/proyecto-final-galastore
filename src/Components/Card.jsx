@@ -31,7 +31,7 @@ export default function Card({ buscarProducto, sort, setSort }) {
   return (
     <section className="section-cards">
       <div className="row gy-4">
-        <h2>Tenemos una gran variedad de giftCards para ti</h2>
+        <h2>Tenemos una gran variedad de Gift Cards para ti</h2>
         <div className="sort-button">
           <button onClick={() => setSort('1')} type="button" className="btn btn-dark">Por orden descendente</button>
           <button onClick={() => setSort('0')} type="button" className="btn btn-dark">Por orden ascendente</button>
