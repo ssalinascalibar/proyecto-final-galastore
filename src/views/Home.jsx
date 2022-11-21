@@ -18,9 +18,11 @@ export default function Home() {
         <div className="text-home">
           <p>BIENVENIDO A</p>
           <h1>GalaStore</h1>
+        </div>
           <div className="text-home-1">
             <p>Convierte tus <br/>productos en</p>
-            <h2>GiftCards</h2>
+            <hr />
+            <h2>Gift Cards</h2>
           </div>
           <div className="text-home-2">
             <p>Publica tu marca!</p>
@@ -28,7 +30,6 @@ export default function Home() {
           </div>
           
           
-        </div>
       </main>
     </div>
   )
