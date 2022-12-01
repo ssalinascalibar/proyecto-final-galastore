@@ -21,10 +21,10 @@ export default function Card({ buscarProducto, sort, setSort }) {
 
   // esta función recibe el id de cada elemento y actuliza la propiedad liked a true si es que se marca cada foto
   const addFavorites = (id) => {
-    //se busca por indice y se compara id de cada elemento foto con el id seleccionado en el onClick
+    //se busca por indice y se compara id de cada elemento giftcard con el id seleccionado en el onClick
     const index = giftCards.findIndex((giftCard) => giftCard.id === id);
-    giftCards[index].favorite = !giftCards[index].favorite; // ya obtenido el nº de indice [index] del arreglo fotos, se transforma .liked a true, ya que el original es false
-    setGiftCards([...giftCards]); // se actualiza el array de fotos con los cambios realizado a un nuevo array de fotos
+    giftCards[index].favorite = !giftCards[index].favorite; // ya obtenido el nº de indice [index] del arreglo giftcards, se transforma .liked a true, ya que el original es false
+    setGiftCards([...giftCards]); // se actualiza el array de giftcards con los cambios realizado a un nuevo array de giftcards
   }
   
 
